@@ -41,7 +41,7 @@
         return __webpack_require__.d(getter, "a", getter), getter;
     }, __webpack_require__.o = function(object, property) {
         return Object.prototype.hasOwnProperty.call(object, property);
-    }, __webpack_require__.p = "", __webpack_require__(__webpack_require__.s = 9);
+    }, __webpack_require__.p = "", __webpack_require__(__webpack_require__.s = 7);
 }([ function(module, exports, __webpack_require__) {
     "use strict";
     module.exports = __webpack_require__(3);
@@ -4633,58 +4633,10 @@
     }, exports.unstable_getCurrentPriorityLevel = function() {
         return f;
     };
-}, function(module, exports, __webpack_require__) {
-    "use strict";
-    var evalAllowed = !1;
-    try {
-        eval("evalAllowed = true");
-    } catch (e) {}
-    var platformSupported = !!Object.setPrototypeOf && evalAllowed;
-    module.exports = __webpack_require__(8);
-}, function(module, exports, __webpack_require__) {
-    "use strict";
-    Object.defineProperty(exports, "__esModule", {
-        value: !0
-    });
-    var React = function(t) {
-        return t && "object" == typeof t && "default" in t ? t.default : t;
-    }(__webpack_require__(0)), classCallCheck = function(t, e) {
-        if (!(t instanceof e)) throw new TypeError("Cannot call a class as a function");
-    }, possibleConstructorReturn = function(t, e) {
-        if (!t) throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
-        return !e || "object" != typeof e && "function" != typeof e ? t : e;
-    }, AppContainer = function(t) {
-        function e() {
-            return classCallCheck(this, e), possibleConstructorReturn(this, t.apply(this, arguments));
-        }
-        return function(t, e) {
-            if ("function" != typeof e && null !== e) throw new TypeError("Super expression must either be null or a function, not " + typeof e);
-            t.prototype = Object.create(e && e.prototype, {
-                constructor: {
-                    value: t,
-                    enumerable: !1,
-                    writable: !0,
-                    configurable: !0
-                }
-            }), e && (Object.setPrototypeOf ? Object.setPrototypeOf(t, e) : t.__proto__ = e);
-        }(e, t), e.prototype.render = function() {
-            return React.Children.only(this.props.children);
-        }, e;
-    }(React.Component);
-    exports.AppContainer = AppContainer, exports.hot = function() {
-        return function(t) {
-            return t;
-        };
-    }, exports.areComponentsEqual = function(t, e) {
-        return t === e;
-    }, exports.setConfig = function() {}, exports.cold = function(t) {
-        return t;
-    };
 }, function(module, __webpack_exports__, __webpack_require__) {
     "use strict";
     __webpack_require__.r(__webpack_exports__);
-    var react = __webpack_require__(0), react_default = __webpack_require__.n(react), react_dom = __webpack_require__(2), react_dom_default = __webpack_require__.n(react_dom);
-    __webpack_require__(7);
+    var react = __webpack_require__(0), react_default = __webpack_require__.n(react), react_dom = __webpack_require__(2);
     var src_App = () => react_default.a.createElement("div", null, "Hello World!");
-    react_dom_default.a.render(react_default.a.createElement(src_App, null), document.getElementById("root"));
+    __webpack_require__.n(react_dom).a.render(react_default.a.createElement(src_App, null), document.getElementById("root"));
 } ]);
