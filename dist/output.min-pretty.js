@@ -41,10 +41,10 @@
         return __webpack_require__.d(getter, "a", getter), getter;
     }, __webpack_require__.o = function(object, property) {
         return Object.prototype.hasOwnProperty.call(object, property);
-    }, __webpack_require__.p = "", __webpack_require__(__webpack_require__.s = 5);
+    }, __webpack_require__.p = "", __webpack_require__(__webpack_require__.s = 9);
 }([ function(module, exports, __webpack_require__) {
     "use strict";
-    module.exports = __webpack_require__(6);
+    module.exports = __webpack_require__(3);
 }, function(module, exports, __webpack_require__) {
     "use strict";
     var getOwnPropertySymbols = Object.getOwnPropertySymbols, hasOwnProperty = Object.prototype.hasOwnProperty, propIsEnumerable = Object.prototype.propertyIsEnumerable;
@@ -85,26 +85,7 @@
         } catch (err) {
             console.error(err);
         }
-    }(), module.exports = __webpack_require__(7);
-}, function(module, __webpack_exports__, __webpack_require__) {
-    "use strict";
-    (function(module) {
-        var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0), react__WEBPACK_IMPORTED_MODULE_0___default = __webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__), react_hot_loader__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(4);
-        __webpack_exports__.a = Object(react_hot_loader__WEBPACK_IMPORTED_MODULE_1__.hot)(module)(() => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "Hello World!"));
-    }).call(this, __webpack_require__(10)(module));
-}, function(module, exports, __webpack_require__) {
-    "use strict";
-    var evalAllowed = !1;
-    try {
-        eval("evalAllowed = true");
-    } catch (e) {}
-    var platformSupported = !!Object.setPrototypeOf && evalAllowed;
-    module.exports = __webpack_require__(11);
-}, function(module, __webpack_exports__, __webpack_require__) {
-    "use strict";
-    __webpack_require__.r(__webpack_exports__);
-    var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0), react__WEBPACK_IMPORTED_MODULE_0___default = __webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__), react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(2), react_dom__WEBPACK_IMPORTED_MODULE_1___default = __webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__), _App__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(3);
-    react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_App__WEBPACK_IMPORTED_MODULE_2__.a, null), document.getElementById("root"));
+    }(), module.exports = __webpack_require__(4);
 }, function(module, exports, __webpack_require__) {
     "use strict";
     var k = __webpack_require__(1), n = "function" == typeof Symbol && Symbol.for, p = n ? Symbol.for("react.element") : 60103, q = n ? Symbol.for("react.portal") : 60106, r = n ? Symbol.for("react.fragment") : 60107, t = n ? Symbol.for("react.strict_mode") : 60108, u = n ? Symbol.for("react.profiler") : 60114, v = n ? Symbol.for("react.provider") : 60109, w = n ? Symbol.for("react.context") : 60110, x = n ? Symbol.for("react.concurrent_mode") : 60111, y = n ? Symbol.for("react.forward_ref") : 60112, z = n ? Symbol.for("react.suspense") : 60113, A = n ? Symbol.for("react.memo") : 60115, B = n ? Symbol.for("react.lazy") : 60116, C = "function" == typeof Symbol && Symbol.iterator;
@@ -366,7 +347,7 @@
     module.exports = Z.default || Z;
 }, function(module, exports, __webpack_require__) {
     "use strict";
-    var aa = __webpack_require__(0), n = __webpack_require__(1), da = __webpack_require__(8);
+    var aa = __webpack_require__(0), n = __webpack_require__(1), da = __webpack_require__(5);
     function r(a) {
         for (var b = arguments.length - 1, c = "https://reactjs.org/docs/error-decoder.html?invariant=" + a, d = 0; d < b; d++) c += "&args[]=" + encodeURIComponent(arguments[d + 1]);
         !function(a, b, c, d, e, f, g, h) {
@@ -4404,7 +4385,7 @@
     module.exports = nj.default || nj;
 }, function(module, exports, __webpack_require__) {
     "use strict";
-    module.exports = __webpack_require__(9);
+    module.exports = __webpack_require__(6);
 }, function(module, exports, __webpack_require__) {
     "use strict";
     Object.defineProperty(exports, "__esModule", {
@@ -4652,26 +4633,14 @@
     }, exports.unstable_getCurrentPriorityLevel = function() {
         return f;
     };
-}, function(module, exports) {
-    module.exports = function(originalModule) {
-        if (!originalModule.webpackPolyfill) {
-            var module = Object.create(originalModule);
-            module.children || (module.children = []), Object.defineProperty(module, "loaded", {
-                enumerable: !0,
-                get: function() {
-                    return module.l;
-                }
-            }), Object.defineProperty(module, "id", {
-                enumerable: !0,
-                get: function() {
-                    return module.i;
-                }
-            }), Object.defineProperty(module, "exports", {
-                enumerable: !0
-            }), module.webpackPolyfill = 1;
-        }
-        return module;
-    };
+}, function(module, exports, __webpack_require__) {
+    "use strict";
+    var evalAllowed = !1;
+    try {
+        eval("evalAllowed = true");
+    } catch (e) {}
+    var platformSupported = !!Object.setPrototypeOf && evalAllowed;
+    module.exports = __webpack_require__(8);
 }, function(module, exports, __webpack_require__) {
     "use strict";
     Object.defineProperty(exports, "__esModule", {
@@ -4711,4 +4680,11 @@
     }, exports.setConfig = function() {}, exports.cold = function(t) {
         return t;
     };
+}, function(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+    __webpack_require__.r(__webpack_exports__);
+    var react = __webpack_require__(0), react_default = __webpack_require__.n(react), react_dom = __webpack_require__(2), react_dom_default = __webpack_require__.n(react_dom);
+    __webpack_require__(7);
+    var src_App = () => react_default.a.createElement("div", null, "Hello World!");
+    react_dom_default.a.render(react_default.a.createElement(src_App, null), document.getElementById("root"));
 } ]);

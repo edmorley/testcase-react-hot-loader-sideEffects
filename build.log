@@ -2,61 +2,52 @@ yarn run v1.12.0
 $ webpack
 Child
         Asset     Size  Chunks             Chunk Names
-    output.js  120 KiB       0  [emitted]  main
+    output.js  119 KiB       0  [emitted]  main
 Child
                    Asset     Size  Chunks             Chunk Names
-    output.min-pretty.js  191 KiB       0  [emitted]  main
+    output.min-pretty.js  189 KiB       0  [emitted]  main
 Child
             Asset     Size  Chunks             Chunk Names
-    output.min.js  111 KiB       0  [emitted]  main
-     [0] ./node_modules/react/index.js 190 bytes {0} [built]
-         ModuleConcatenation bailout: Module is not an ECMAScript module
-         harmony side effect evaluation react [3] ./src/App.js 1:0-26
-         harmony import specifier react [3] ./src/App.js 4:18-23
-         harmony side effect evaluation react [5] ./src/index.js 1:0-26
-         harmony import specifier react [5] ./src/index.js 4:16-21
-         cjs require react [7] ./node_modules/react-dom/cjs/react-dom.production.min.js 13:20-36
-         cjs require react [11] ./node_modules/react-hot-loader/dist/react-hot-loader.production.min.js 1:178-194
-     [1] ./node_modules/object-assign/index.js 2.06 KiB {0} [built]
-         ModuleConcatenation bailout: Module is not an ECMAScript module
-         cjs require object-assign [6] ./node_modules/react/cjs/react.production.min.js 10:19-43
-         cjs require object-assign [7] ./node_modules/react-dom/cjs/react-dom.production.min.js 13:39-63
-     [2] ./node_modules/react-dom/index.js 1.33 KiB {0} [built]
-         [only some exports used: default]
-         ModuleConcatenation bailout: Module is not an ECMAScript module
-         harmony side effect evaluation react-dom [5] ./src/index.js 2:0-33
-         harmony import specifier react-dom [5] ./src/index.js 4:0-8
-     [3] ./src/App.js 169 bytes {0} [built]
-         [exports: default]
-         [all exports used]
-         ModuleConcatenation bailout: Module uses injected variables (module)
-         harmony side effect evaluation ./App [5] ./src/index.js 3:0-24
-         harmony import specifier ./App [5] ./src/index.js 4:36-39
-     [4] ./node_modules/react-hot-loader/index.js 676 bytes {0} [built]
-         [only some exports used: hot]
-         ModuleConcatenation bailout: Module is not an ECMAScript module
-         harmony side effect evaluation react-hot-loader [3] ./src/App.js 2:0-39
-         harmony import specifier react-hot-loader [3] ./src/App.js 6:15-18
-     [5] ./src/index.js 167 bytes {0} [built]
-         [no exports]
-         ModuleConcatenation bailout: Module is an entry point
-         single entry ./src  main
-     [6] ./node_modules/react/cjs/react.production.min.js 6.07 KiB {0} [built]
-         ModuleConcatenation bailout: Module is not an ECMAScript module
-         cjs require ./cjs/react.production.min.js [0] ./node_modules/react/index.js 4:19-59
-     [7] ./node_modules/react-dom/cjs/react-dom.production.min.js 98 KiB {0} [built]
-         ModuleConcatenation bailout: Module is not an ECMAScript module
-         cjs require ./cjs/react-dom.production.min.js [2] ./node_modules/react-dom/index.js 35:19-63
-     [8] ./node_modules/scheduler/index.js 198 bytes {0} [built]
-         ModuleConcatenation bailout: Module is not an ECMAScript module
-         cjs require scheduler [7] ./node_modules/react-dom/cjs/react-dom.production.min.js 13:67-87
-     [9] ./node_modules/scheduler/cjs/scheduler.production.min.js 4.79 KiB {0} [built]
-         ModuleConcatenation bailout: Module is not an ECMAScript module
-         cjs require ./cjs/scheduler.production.min.js [8] ./node_modules/scheduler/index.js 4:19-63
-    [10] (webpack)/buildin/harmony-module.js 573 bytes {0} [built]
-         ModuleConcatenation bailout: Module is not an ECMAScript module
-         cjs require module [3] ./src/App.js 1:0-62
-    [11] ./node_modules/react-hot-loader/dist/react-hot-loader.production.min.js 1.32 KiB {0} [built]
-         ModuleConcatenation bailout: Module is not an ECMAScript module
-         cjs require ./dist/react-hot-loader.production.min.js [4] ./node_modules/react-hot-loader/index.js 18:19-71
-Done in 2.84s.
+    output.min.js  110 KiB       0  [emitted]  main
+    [0] ./node_modules/react/index.js 190 bytes {0} [built]
+        ModuleConcatenation bailout: Module is not an ECMAScript module
+        cjs require react [4] ./node_modules/react-dom/cjs/react-dom.production.min.js 13:20-36
+        cjs require react [8] ./node_modules/react-hot-loader/dist/react-hot-loader.production.min.js 1:178-194
+        harmony side effect evaluation react [9] ./src/index.js + 1 modules 1:0-26
+        harmony side effect evaluation react [9] ./src/index.js + 1 modules 1:0-26
+        harmony import specifier react [9] ./src/index.js + 1 modules 4:16-21
+        harmony import specifier react [9] ./src/index.js + 1 modules 4:18-23
+    [1] ./node_modules/object-assign/index.js 2.06 KiB {0} [built]
+        ModuleConcatenation bailout: Module is not an ECMAScript module
+        cjs require object-assign [3] ./node_modules/react/cjs/react.production.min.js 10:19-43
+        cjs require object-assign [4] ./node_modules/react-dom/cjs/react-dom.production.min.js 13:39-63
+    [2] ./node_modules/react-dom/index.js 1.33 KiB {0} [built]
+        [only some exports used: default]
+        ModuleConcatenation bailout: Module is not an ECMAScript module
+        harmony side effect evaluation react-dom [9] ./src/index.js + 1 modules 2:0-33
+        harmony import specifier react-dom [9] ./src/index.js + 1 modules 4:0-8
+    [3] ./node_modules/react/cjs/react.production.min.js 6.07 KiB {0} [built]
+        ModuleConcatenation bailout: Module is not an ECMAScript module
+        cjs require ./cjs/react.production.min.js [0] ./node_modules/react/index.js 4:19-59
+    [4] ./node_modules/react-dom/cjs/react-dom.production.min.js 98 KiB {0} [built]
+        ModuleConcatenation bailout: Module is not an ECMAScript module
+        cjs require ./cjs/react-dom.production.min.js [2] ./node_modules/react-dom/index.js 35:19-63
+    [5] ./node_modules/scheduler/index.js 198 bytes {0} [built]
+        ModuleConcatenation bailout: Module is not an ECMAScript module
+        cjs require scheduler [4] ./node_modules/react-dom/cjs/react-dom.production.min.js 13:67-87
+    [6] ./node_modules/scheduler/cjs/scheduler.production.min.js 4.79 KiB {0} [built]
+        ModuleConcatenation bailout: Module is not an ECMAScript module
+        cjs require ./cjs/scheduler.production.min.js [5] ./node_modules/scheduler/index.js 4:19-63
+    [7] ./node_modules/react-hot-loader/index.js 676 bytes {0} [built]
+        [no exports used]
+        ModuleConcatenation bailout: Module is not an ECMAScript module
+        harmony side effect evaluation react-hot-loader [9] ./src/index.js + 1 modules 2:0-39
+    [8] ./node_modules/react-hot-loader/dist/react-hot-loader.production.min.js 1.32 KiB {0} [built]
+        ModuleConcatenation bailout: Module is not an ECMAScript module
+        cjs require ./dist/react-hot-loader.production.min.js [7] ./node_modules/react-hot-loader/index.js 18:19-71
+    [9] ./src/index.js + 1 modules 338 bytes {0} [built]
+        [no exports]
+        ModuleConcatenation bailout: Cannot concat with ./node_modules/react-dom/index.js (<- Module is not an ECMAScript module)
+        ModuleConcatenation bailout: Cannot concat with ./node_modules/react/index.js (<- Module is not an ECMAScript module)
+        single entry ./src  main
+Done in 2.85s.
